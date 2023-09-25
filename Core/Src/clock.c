@@ -78,6 +78,61 @@ void setNumberOnClock(int num) {
 	}
 }
 
+void clearNumberOnClock(int num) {
+	switch (num) {
+	case 0: {
+		HAL_GPIO_WritePin(pos0_GPIO_Port, pos0_Pin, 0);
+		break;
+	}
+	case 1: {
+		HAL_GPIO_WritePin(pos1_GPIO_Port, pos1_Pin, 0);
+		break;
+	}
+	case 2: {
+		HAL_GPIO_WritePin(pos2_GPIO_Port, pos2_Pin, 0);
+		break;
+	}
+	case 3: {
+		HAL_GPIO_WritePin(pos3_GPIO_Port, pos3_Pin, 0);
+		break;
+	}
+	case 4: {
+		HAL_GPIO_WritePin(pos4_GPIO_Port, pos4_Pin, 0);
+		break;
+	}
+	case 5: {
+		HAL_GPIO_WritePin(pos5_GPIO_Port, pos5_Pin, 0);
+		break;
+	}
+	case 6: {
+		HAL_GPIO_WritePin(pos6_GPIO_Port, pos6_Pin, 0);
+		break;
+	}
+	case 7: {
+		HAL_GPIO_WritePin(pos7_GPIO_Port, pos7_Pin, 0);
+		break;
+	}
+	case 8: {
+		HAL_GPIO_WritePin(pos8_GPIO_Port, pos8_Pin, 0);
+		break;
+	}
+	case 9: {
+		HAL_GPIO_WritePin(pos9_GPIO_Port, pos9_Pin, 0);
+		break;
+	}
+	case 10: {
+		HAL_GPIO_WritePin(pos10_GPIO_Port, pos10_Pin, 0);
+		break;
+	}
+	case 11: {
+		HAL_GPIO_WritePin(pos11_GPIO_Port, pos11_Pin, 0);
+		break;
+	}
+	default:
+		break;
+	}
+}
+
 void testClock(int counter) {
 	switch (counter) {
 	case 0: {

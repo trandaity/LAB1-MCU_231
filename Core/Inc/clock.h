@@ -10,6 +10,7 @@
 
 void clearAllClock();
 void setNumberOnClock(int num);
+void clearNumberOnClock(int num);
 void testClock(int counter);
 
 #endif /* INC_CLOCK_H_ */
