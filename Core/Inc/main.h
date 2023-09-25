@@ -58,6 +58,30 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define pos0_Pin GPIO_PIN_4
+#define pos0_GPIO_Port GPIOA
+#define pos1_Pin GPIO_PIN_5
+#define pos1_GPIO_Port GPIOA
+#define pos2_Pin GPIO_PIN_6
+#define pos2_GPIO_Port GPIOA
+#define pos3_Pin GPIO_PIN_7
+#define pos3_GPIO_Port GPIOA
+#define pos4_Pin GPIO_PIN_8
+#define pos4_GPIO_Port GPIOA
+#define pos5_Pin GPIO_PIN_9
+#define pos5_GPIO_Port GPIOA
+#define pos6_Pin GPIO_PIN_10
+#define pos6_GPIO_Port GPIOA
+#define pos7_Pin GPIO_PIN_11
+#define pos7_GPIO_Port GPIOA
+#define pos8_Pin GPIO_PIN_12
+#define pos8_GPIO_Port GPIOA
+#define pos9_Pin GPIO_PIN_13
+#define pos9_GPIO_Port GPIOA
+#define pos10_Pin GPIO_PIN_14
+#define pos10_GPIO_Port GPIOA
+#define pos11_Pin GPIO_PIN_15
+#define pos11_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
