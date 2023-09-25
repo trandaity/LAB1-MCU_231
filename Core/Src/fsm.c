@@ -22,10 +22,12 @@ void trafficLightsFSM() {
 
 		status = RED;
 		counter = 5;
+
+		break;
 	}
 	case RED: {
 		HAL_GPIO_WritePin(YELLOW_1_GPIO_Port, YELLOW_1_Pin, 0);
-		HAL_GPIO_WritePin(GREEN_1_GPIO_Port, YELLOW_1_Pin, 1);
+		HAL_GPIO_WritePin(RED_1_GPIO_Port, RED_1_Pin, 1);
 
 		if (counter <= 0) {
 			status = GREEN;
