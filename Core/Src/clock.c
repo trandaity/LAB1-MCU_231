@@ -133,7 +133,27 @@ void clearNumberOnClock(int num) {
 }
 
 void runClock() {
+	sec++;
 
+	if (sec >= 60) {
+		min++;
+		sec = 0;
+	}
+
+	if (min >= 60) {
+		hour++;
+		min = 0;
+	}
+
+	if (hour >= 12) {
+		hour = 0;
+	}
+
+	HAL_Delay(1000);
+	clearAllClock();
+	setNumberOnClock(sec / 5);
+	setNumberOnClock(min / 5);
+	setNumberOnClock(hour);
 }
 
 void testClock(int counter) {
