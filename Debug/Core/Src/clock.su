@@ -1,1 +1,5 @@
-clock.c:11:6:testClock	16	static
+clock.c:10:6:clearAllClock	8	static
+clock.c:25:6:setNumberOnClock	16	static
+clock.c:80:6:clearNumberOnClock	16	static
+clock.c:135:6:runClock	8	static
+clock.c:159:6:testClock	16	static
