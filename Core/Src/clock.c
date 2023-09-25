@@ -5,7 +5,6 @@
  *      Author: trand
  */
 
-#include "main.h"
 #include "clock.h"
 
 void clearAllClock() {
@@ -131,6 +130,10 @@ void clearNumberOnClock(int num) {
 	default:
 		break;
 	}
+}
+
+void runClock() {
+
 }
 
 void testClock(int counter) {
