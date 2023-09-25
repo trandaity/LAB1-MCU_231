@@ -28,28 +28,20 @@ void display7SEG(int num) {
 		HAL_GPIO_WritePin(segD_GPIO_Port, segD_Pin, 0);
 		HAL_GPIO_WritePin(segE_GPIO_Port, segE_Pin, 0);
 		HAL_GPIO_WritePin(segF_GPIO_Port, segF_Pin, 0);
-		HAL_GPIO_WritePin(segG_GPIO_Port, segG_Pin, 1);
 
 		break;
 	}
 	case 1: {
-		HAL_GPIO_WritePin(segA_GPIO_Port, segA_Pin, 1);
 		HAL_GPIO_WritePin(segB_GPIO_Port, segB_Pin, 0);
 		HAL_GPIO_WritePin(segC_GPIO_Port, segC_Pin, 0);
-		HAL_GPIO_WritePin(segD_GPIO_Port, segD_Pin, 1);
-		HAL_GPIO_WritePin(segE_GPIO_Port, segE_Pin, 1);
-		HAL_GPIO_WritePin(segF_GPIO_Port, segF_Pin, 1);
-		HAL_GPIO_WritePin(segG_GPIO_Port, segG_Pin, 1);
 
 		break;
 	}
 	case 2: {
 		HAL_GPIO_WritePin(segA_GPIO_Port, segA_Pin, 0);
 		HAL_GPIO_WritePin(segB_GPIO_Port, segB_Pin, 0);
-		HAL_GPIO_WritePin(segC_GPIO_Port, segC_Pin, 1);
 		HAL_GPIO_WritePin(segD_GPIO_Port, segD_Pin, 0);
 		HAL_GPIO_WritePin(segE_GPIO_Port, segE_Pin, 0);
-		HAL_GPIO_WritePin(segF_GPIO_Port, segF_Pin, 1);
 		HAL_GPIO_WritePin(segG_GPIO_Port, segG_Pin, 0);
 
 		break;
@@ -59,18 +51,14 @@ void display7SEG(int num) {
 		HAL_GPIO_WritePin(segB_GPIO_Port, segB_Pin, 0);
 		HAL_GPIO_WritePin(segC_GPIO_Port, segC_Pin, 0);
 		HAL_GPIO_WritePin(segD_GPIO_Port, segD_Pin, 0);
-		HAL_GPIO_WritePin(segE_GPIO_Port, segE_Pin, 1);
-		HAL_GPIO_WritePin(segF_GPIO_Port, segF_Pin, 1);
 		HAL_GPIO_WritePin(segG_GPIO_Port, segG_Pin, 0);
 
 		break;
 	}
 	case 4: {
-		HAL_GPIO_WritePin(segA_GPIO_Port, segA_Pin, 1);
+
 		HAL_GPIO_WritePin(segB_GPIO_Port, segB_Pin, 0);
 		HAL_GPIO_WritePin(segC_GPIO_Port, segC_Pin, 0);
-		HAL_GPIO_WritePin(segD_GPIO_Port, segD_Pin, 1);
-		HAL_GPIO_WritePin(segE_GPIO_Port, segE_Pin, 1);
 		HAL_GPIO_WritePin(segF_GPIO_Port, segF_Pin, 0);
 		HAL_GPIO_WritePin(segG_GPIO_Port, segG_Pin, 0);
 
@@ -78,10 +66,8 @@ void display7SEG(int num) {
 	}
 	case 5: {
 		HAL_GPIO_WritePin(segA_GPIO_Port, segA_Pin, 0);
-		HAL_GPIO_WritePin(segB_GPIO_Port, segB_Pin, 1);
 		HAL_GPIO_WritePin(segC_GPIO_Port, segC_Pin, 0);
 		HAL_GPIO_WritePin(segD_GPIO_Port, segD_Pin, 0);
-		HAL_GPIO_WritePin(segE_GPIO_Port, segE_Pin, 1);
 		HAL_GPIO_WritePin(segF_GPIO_Port, segF_Pin, 0);
 		HAL_GPIO_WritePin(segG_GPIO_Port, segG_Pin, 0);
 
@@ -89,7 +75,6 @@ void display7SEG(int num) {
 	}
 	case 6: {
 		HAL_GPIO_WritePin(segA_GPIO_Port, segA_Pin, 0);
-		HAL_GPIO_WritePin(segB_GPIO_Port, segB_Pin, 1);
 		HAL_GPIO_WritePin(segC_GPIO_Port, segC_Pin, 0);
 		HAL_GPIO_WritePin(segD_GPIO_Port, segD_Pin, 0);
 		HAL_GPIO_WritePin(segE_GPIO_Port, segE_Pin, 0);
@@ -102,10 +87,6 @@ void display7SEG(int num) {
 		HAL_GPIO_WritePin(segA_GPIO_Port, segA_Pin, 0);
 		HAL_GPIO_WritePin(segB_GPIO_Port, segB_Pin, 0);
 		HAL_GPIO_WritePin(segC_GPIO_Port, segC_Pin, 0);
-		HAL_GPIO_WritePin(segD_GPIO_Port, segD_Pin, 1);
-		HAL_GPIO_WritePin(segE_GPIO_Port, segE_Pin, 1);
-		HAL_GPIO_WritePin(segF_GPIO_Port, segF_Pin, 1);
-		HAL_GPIO_WritePin(segG_GPIO_Port, segG_Pin, 1);
 
 		break;
 	}
@@ -125,7 +106,6 @@ void display7SEG(int num) {
 		HAL_GPIO_WritePin(segB_GPIO_Port, segB_Pin, 0);
 		HAL_GPIO_WritePin(segC_GPIO_Port, segC_Pin, 0);
 		HAL_GPIO_WritePin(segD_GPIO_Port, segD_Pin, 0);
-		HAL_GPIO_WritePin(segE_GPIO_Port, segE_Pin, 1);
 		HAL_GPIO_WritePin(segF_GPIO_Port, segF_Pin, 0);
 		HAL_GPIO_WritePin(segG_GPIO_Port, segG_Pin, 0);
 
